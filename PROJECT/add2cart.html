@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <title>Final Project</title>
+    <!-- calling our js file -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/custom.js"></script>
+</head>
+    <body>
+        <!-- our header -->
+        <header id="header">
+        </header>
+
+        <!-- our main content -->
+         <main id="main_cart">
+            <section>
+                <!-- table of cart items -->
+                <table>
+                    <!-- table head -->
+                    <thead>
+                    <!-- table row -->
+                        <tr>
+                            <!-- table headings -->
+                            <th>Product name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <!-- table body -->
+                    <tbody id="hide_show">
+                        <!-- table row -->
+                        <tr>
+                            <!-- table data -->
+                            <td>Porsche 911 GT3</td>
+                            <td>3</td>
+                            <td>$ 19.50</td>
+                            <td>$ 59.50</td>
+                        </tr>
+                        <!-- table row -->
+                        <tr>
+                            <!-- table data -->
+                            <td>67 Camaro</td>
+                            <td>1</td>
+                            <td>$ 15.59</td>
+                            <td>$ 15.59</td>
+                        </tr>
+                        <!-- table row -->
+                        <tr>
+                            <!-- table data -->
+                            <td>Nissan Skyline GT-R (R34)</td>
+                            <td>2</td>
+                            <td>$ 14.80</td>
+                            <td>$ 29.60</td>
+                        </tr>
+                        <!-- table row -->
+                        <tr>
+                            <!-- table data -->
+                            <td>Off-Road Truck</td>
+                            <td>3</td>
+                            <td>$ 29.75</td>
+                            <td>$ 87.50</td>
+                        </tr>
+                        <!-- table row -->
+                        <tr>
+                            <!-- table data -->
+                            <td>Car Culture Sets</td>
+                            <td>2</td>
+                            <td>$ 35.25</td>
+                            <td>$ 71.50</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <!-- button that hides carts data -->
+                <div>
+                    <button id="hide_cart">Hide Cart</button>
+                </div>
+
+                <!-- button that shows carts data -->
+                <div>
+                    <button id="show_cart">Show cart</button>
+                </div>
+
+                <!-- grand total -->
+                <div>
+                    <button id="total">Grand Total: $265.69</button>
+                </div>
+
+                <!-- button of placing order -->
+                <div>
+                    <button id="place_order" onclick="location.href='final.html';">PLACE ORDER</button><!-- button which directs to final.html  -->
+                </div>
+            </section>
+         </main>
+        <hr>
+        
+        <!-- our footer -->
+         <footer id="footer">
+         </footer>
+    </body>
+</html>

@@ -1,0 +1,751 @@
+body{margin: 0px;}/* Remove all margins */
+/* Apply the same font family and weight to all heading elements */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+}
+
+/* Apply styling to paragraphs, links, and list items */
+p,a,li{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none; /* Remove underlines from links and list items */
+}
+
+/*our header CSS*/
+header{
+  display: flex;/* Use flexbox layout */
+  height: 125px;
+  align-items: center;/* Center items vertically within the header */
+  background-color: #155d8c;
+}
+.logo-container{
+  height: 110px;
+  flex-grow: 1;/* Allow the container to grow */
+}
+.logo-container a img{
+  height: 100%;
+  width: auto;
+  margin-left: 2%;
+  aspect-ratio: 3/2;  /* Maintain a 3:2 aspect ratio for the image */
+  object-fit: contain; /* Scale the image to fit within the container */
+}
+header nav menu{
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Use flexbox layout for menu items */
+}
+header nav menu li{
+  padding: 0px 30px; /* horizontal padding to each menu item */
+}
+header nav menu li a{
+  color: #fff;
+}
+hr{
+  display: grid; /* Use grid layout */
+  grid-template-columns: 100%; /* full width */
+  width: 98%;
+  border: 1px solid grey; /* a grey border */
+}
+
+/*INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML INDEX.HTML */
+/*our masthead CSS*/
+#mast_index{
+    height: 80vh;
+    background-image: url('../img/Screenshot\ 2024-07-20\ 223900.png');
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* background image to cover the entire area */
+    margin-top: -2.7%;
+  }
+  #mast_index > div{
+    margin-left: 5%;
+  }
+  #mast_index > div > h1{
+    color: black;
+    font-size: 3em;
+    font-family: Monaco, Consolas, 'Courier New', Courier, monospace; /* Using monospace font family */
+}
+  #mast_index > div > h2{
+    color: black;
+    font-size: 1.5em;
+}
+  #mast_index > div > button{
+    width: 200px;
+    display: inline-block; /* button as inline-block */
+    padding: 10px 20px; /* Add padding inside the button */
+    font-size: 16px;
+    text-align: center; /* Center text in the button */
+    text-decoration: none; /* Remove text decoration  */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the corners of the button */
+    color: #ffffff;
+    background-color: black; 
+}
+#mast_index > div > button:hover{
+  background-color: #155d8c; /* on hover background color changes */
+}
+
+
+/*our main CSS */
+#main_index{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+#main_index > section > #div1{
+  margin-left: 5%;
+  display: inline-block; /* button as inline-block */
+  width: 32%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text */
+  margin-top: 1%;
+  height: 35vh; /* viewport height */
+}
+#main_index > section > #div2{
+  display: inline-block; /* button as inline-block */
+  width: 29%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text */
+  margin-top: 1%;
+  height: 35vh; /* viewport height */
+}
+#main_index > section > #div3{
+  display: inline-block;
+  width: 29%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text */
+  margin-top: 1%;
+  height: 35vh; /* viewport height */
+}
+#main_index > section > div > button{
+  width: 60%;
+  display: inline-block; /* button as inline-block */
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none; /* Remove text underline */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none;
+  border-radius: 5px;
+  color: #ffffff; 
+  background-color: black; 
+}
+#main_index > section > div > button:hover{
+  background-color: #155d8c; /* on hover background color changes */
+}
+
+/*our aside CSS*/
+#aside_index > #article1{
+  margin-left: 8%;
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article2{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article3{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article4{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article5{
+  margin-left: 8%;
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article6{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article7{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > #article8{
+  display: inline-block; /* Aligns articles in a row */
+  width: 20%;
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text horizontally */
+  margin-top: 3%;
+}
+#aside_index > article > img{
+  width: 100%;
+}
+
+
+/*CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML CAR.HTML */ 
+/* main css */
+#main_cars {
+  text-align: center; /* Center text horizontally */
+  padding: 20px;
+}
+
+#main_cars > section {
+  display: flex;  /* Use flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align items to the top */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  border: 1px solid black; /* Border around the section */
+}
+
+#main_cars > section > div {
+  flex: 1;
+  margin: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+#main_cars > section > div img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main_cars > section > div > button{
+  width: 35%;
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 16px;
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the button corners */
+  color: #0e0e0e;  /* Text color */
+  background-color: #ffcd00;  /* background color */
+}
+#main_cars > section > div > button:hover{
+  color: white;  /* Text color */
+  background-color: #0e0e0e;  /* background color */
+}
+
+#main_cars > #section1 > div{
+  text-align: center; /* Center text */
+}
+#main_cars > #section1{
+  border: none; /* Remove default border */
+}
+
+#main_cars > #section1 > button{
+  width: 25%;
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 16px;
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the button corners */
+  color: #0e0e0e;  /* Text color */
+  background-color: #ffcd00;  /* background color */
+}
+
+
+/* TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML TRUCKS.HTML */
+/* main css */
+#main_trucks {
+  text-align: center; /* Center text */
+  padding: 20px;
+}
+
+#main_trucks > section {
+  display: flex; /* Use flexbox layout */
+  justify-content: center;  /* Center content horizontally */
+  align-items: flex-start;  /* Align items to the top */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  border: 1px solid black; /* Border around the section */
+}
+
+#main_trucks > section > div {
+  flex: 1; /* Allow the container to grow */
+  margin: 10px; /* Space around each item */
+  text-align: left;
+}
+
+#main_trucks > section > div img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main_trucks > section > div > button{
+  width: 35%;
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 16px;
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the button corners */
+  color: #0e0e0e;  /* Text color */
+  background-color: #ffcd00;  /* background color */
+}
+#main_trucks > section > div > button:hover{
+  color: white;  /* Text color */
+  background-color: #0e0e0e;  /* background color */
+}
+
+#main_trucks > #section1 > div{
+  text-align: center; /* Center text */
+}
+#main_trucks > #section1{
+  border: none; /* Remove default border */
+}
+
+#main_trucks > #section1 > button{
+  width: 25%;
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 16px;
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the button corners */
+  color: #0e0e0e;  /* Text color */
+  background-color: #ffcd00;  /* background color */
+}
+
+
+/* TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML TRACKS.HTML */
+/* main css */
+#main_track {
+  text-align: center; /* Center text */
+  padding: 20px;
+}
+
+#main_track > section {
+  display: flex;  /* Use flexbox layout */
+  justify-content: center;  /* Center content horizontally */
+  align-items: flex-start;  /* Align items to the top */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  border: 1px solid black;
+}
+
+#main_track > section > div {
+  flex: 1; /* Allow the container to grow */
+  margin: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+#main_track > section > div img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio of the image */
+}
+
+#main_track > section > div > button{
+  width: 35%;
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 16px;
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the button corners */
+  color: #0e0e0e;  /* Text color */
+  background-color: #ffcd00;  /* background color */
+}
+#main_track > section > div > button:hover{
+  color: white;  /* Text color */
+  background-color: #0e0e0e;  /* background color */
+}
+
+#main_track > #section1 > div{
+  text-align: center;
+}
+#main_track > #section1{
+  border: none;
+}
+
+
+/* CONTACT.HTML C CONTACT.HTML CONTACT.HTML CONTACT.HTML ONTACT.HTML CONTACT.HTML CONTACT.HTML CONTACT.HTML */
+/* our main */
+#main_contact > #section1 > h1{
+  font-size: 40px;
+  margin-left: 5%;
+}
+#main_contact > #section2 > #div1{
+  margin-left: 5%;
+  display: inline-block;  /* Display as inline-block for layout */
+  width: 45%; /*  width of the div */
+  align-items: center; /* Center align items vertically */
+  text-align: center; /* Center align items horizontally */
+  margin-top: 1%;
+  height: 42vh; /* viewport height */
+}
+#main_contact > #section2 > #div2{
+  display: inline-block;  /* Display as inline-block for layout */
+  width: 45%;
+  align-items: center; /* Center align items vertically */
+  text-align: center; /* Center align items horizontally */
+  margin-top: 1%;
+  height: 42vh; /* viewport height */
+}
+#main_contact > section > div > button{
+  width: 40%; /* width of the button */
+  display: inline-block; /* Display as an inline-block */
+  padding: 10px 20px; /* Add padding inside the button */
+  font-size: 16px; /* Set font size of button text */
+  text-align: center; /* Center align button text */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the corners of the button */
+  color: #ffffff; 
+  background-color: black; 
+}
+#main_contact > section > div > button:hover{
+  background-color: #155d8c;  /* Change background color on hover */
+}
+
+#main_contact > #section3 > #div3{
+  margin-left: 5%; /* Margin from left of the div */
+  display: inline-block; /* Display as inline-block */
+  width: 45%; /* width of the div */
+  align-items: center; /* Center align items vertically */
+  text-align: center; /* Center align text horizontally */
+  margin-top: 3%;
+  height: 42vh; /* viewport height */
+}
+#main_contact > #section3 > #div4{
+  display: inline-block; /* Display as inline-block */
+  width: 45%; /*  width of the div */
+  align-items: center; /* Center align items vertically */
+  text-align: center; /* Center align text horizontally */
+  margin-top: 3%;
+  height: 42vh; /*  viewport height */
+}
+#main_contact > section > div > img{
+  width: 80%;
+}
+
+/* our aside */
+#aside_contact{
+  margin-left: 5%; /* Margin from left */
+  margin-top: 2%; /* Margin from top */
+}
+#aside_contact > article{
+  border: 1px solid grey; /* Grey Border around articles */
+  display: inline-block; /* Display as inline-block */
+  width: 45%; /*  width of articles */
+  text-align: center; /* Center align text within articles */
+  transition: color 0.5s, background-color 0.4s; /* Transition effects for hover */
+}
+#aside_contact > #article2, #article4{
+  margin-left: -0.29%;
+}
+#aside_contact > article:hover{
+  color: #ffffff; /*  text color on hover */
+  background-color: #090909; /*  background color on hover */
+}
+
+/*our masthead CSS*/
+#mast_contact{
+  background-color: orange; /*  background color for the masthead */
+  color: #ffff; /* text color */
+  margin-left: 5%; /* Margin from left */
+  margin-top: 2%; /* Margin from top */
+}
+#mast_contact > div{
+  margin-left: 20%; /* Margin from left */
+  text-align: center; /* Center align text */
+  width: 50%;
+  margin-top: 3%;
+}
+
+
+/* ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML ABOUTUS.HTML */
+/*our masthead CSS*/
+#mast_about > div{
+  margin-left: 5%; /* Margin from left */
+  width: 70%;
+}
+#mast_about > div > h1{
+  color: black; /* Text color */
+  font-size: 3em;
+}
+#mast_about > div > h2{
+  color: black; /* Text color */
+}
+hr{
+  border: 1px solid grey; /* border color */
+  width: 90%;
+}
+
+/* our main css */
+#main_about > #section1 > div{
+  margin-left: 5%;
+  width: 40%;
+  display: inline-block; /* Display as inline-block */
+  margin-top: 1.5%; /* Margin on the top side */
+  margin-bottom: 1.5%; /* Margin on the bottom side */
+}
+#main_about > #section1 > div:hover{
+  color: #f4f4f4;
+  background-color: #0e0e0e;
+}
+#main_about > #section2 > div{
+  margin-left: 5%;
+  width: 60%;
+  display: inline-block; /* Display as inline-block */
+  margin-top: 1.5%; /* Margin on the top side */
+  margin-bottom: 1.5%; /* Margin on the bottom side */
+}
+
+#section_x{
+  margin-left: 5%; /* Margin on the left side */
+  margin-top: 1.5%; /* Margin on the top side */
+}
+
+/* our aside */
+#aside_about > article{
+  margin-left: 5%;
+  width: 40%;
+  display: inline-block;  /* Display as inline-block */
+  margin-bottom: 1.5%; /* Margin on the bottom side */
+}
+#aside_about > article > button{
+  width: 60%; /* Width of button */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size of the button text */
+  text-align: center; /* Center align text inside the button */
+  text-decoration: none; /* Remove underline  */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: 1px solid black; /* Black border around the button */
+  border-radius: 5px; /* Rounded corners  */
+  color: red; /* Text color  */
+  background-color: #ffffff; /* Background color of the button */
+  font-weight: 800; /* Font weight of  button text */
+}
+#aside_about > article > button:hover {
+  background-color: red; /* Background color on hover */
+  color: #ffffff; /* Text color on hover */
+}
+
+
+
+/* ADD2CART.HTML ADD2CART.HTML ADD2CART.HTML ADD2CART.HTML ADD2CART.HTML ADD2CART.HTML ADD2CART.HTML */
+/*main content*/
+#main_cart{
+  margin: 3%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders (1 border) */
+  margin: 0 auto; /* Center  table horizontally */
+}
+
+th, td {
+  padding: 12px; /* Padding inside boxes of table */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Light grey border */
+}
+
+thead {
+  background-color: #f4f4f4; /* Light grey background color */
+  color: #333;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Light grey background for odd rows */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /*  darker grey background on hover */
+}
+
+th {
+  background-color: #333; /* background color */
+  color: white; /* White text color */
+  font-weight: bold; /* Bold text for headers */
+}
+
+td {
+  color: #666;
+}
+
+#main_cart > section {
+  text-align: center; /* Center-align text  */
+}
+
+#main_cart > section > div > #total{
+  width: 23%; /* Button width */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size of text */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline*/
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove border  */
+  border-radius: 5px; /* Rounded corners */
+  color: #ffffff;  /* Text color */
+  background-color: #333;  /*  background color */
+  margin-top: 5%;
+  margin-left: 10%;
+}
+#main_cart > section > div > #total:hover{
+  color: white;  /* Text color */
+  background-color: black;  /*  background color */
+}
+
+#main_cart > section > div > #hide_cart{
+  width: 10%; /* Button width */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 10px; /* Padding inside the button */
+  font-size: 12px; /* Font size of text */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline*/
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: 1px solid black;
+  border-radius: 5px; /* Rounded corners */
+  color: black;  /* Text color */
+  background-color: white;  /*  background color */
+  float: right;
+}
+#main_cart > section > div > #hide_cart:hover{
+  color: white;  /* Text color */
+  background-color: black;  /*  background color */
+}
+#main_cart > section > div > #show_cart{
+  width: 10%; /* Button width */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 10px; /* Padding inside the button */
+  font-size: 12px; /* Font size of text */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline*/
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: 1px solid black;
+  border-radius: 5px; /* Rounded corners */
+  color: black;  /* Text color */
+  background-color: white;  /*  background color */
+  float: right;
+}
+#main_cart > section > div > #show_cart:hover{
+  color: white;  /* Text color */
+  background-color: black;  /*  background color */
+}
+#main_cart > section > div > #place_order{
+  width: 20%; /* Button width */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size of text */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline*/
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove border  */
+  border-radius: 5px; /* Rounded corners */
+  color: #ffffff;  /* Text color */
+  background-color: #42b321;  /*  background color */
+  margin-top: 1%;
+}
+#main_cart > section > div > #place_order:hover{
+  color: white;  /* Text color */
+  background-color: darkgreen;  /*  background color */
+}
+
+
+
+/*  FINAL.HTML FINAL.HTML FINAL.HTML FINAL.HTML FINAL.HTML FINAL.HTML FINAL.HTML FINAL.HTML*/
+/*main content*/
+#main_final{
+  margin-left: 3%; /* Margin on left side */
+  margin-right: 3%; /* Margin on right side */
+  margin-top: 2%; /* Margin on top */
+
+}
+#main_final > section {
+  text-align: center; /* Center-align text */
+}
+#main_final > section > div > h1 {
+  font-size: 30px;
+}
+#order_placed{
+  width: 350px; /* fixed width of img */
+}
+#main_final > section > div > button{
+  width: 20%; /* Width of button */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners of button */
+  color: #ffffff;  /* Text color */
+  background-color: #35bd35; /* background color - green */
+}
+#main_final > section > div > button:hover{
+  color: #ffffff;  /* Text color */
+  background-color: green; /* background color - green */
+}
+
+
+/*  PRIVACY.HTML PRIVACY.HTML PRIVACY.HTML PRIVACY.HTML PRIVACY.HTML PRIVACY.HTML PRIVACY.HTML */
+#privacy_main{
+  margin-left: 3%;/* margin from left */
+}
+#privacy_main > section > div > h2{
+  font-size: 21px;/* font-size of texts */
+  font-weight: 600;/* weight of font */
+}
+#privacy_main > section > div > ul > li:hover{
+  color: red;
+  cursor: pointer; /* when there is hover, then the cursor changes to pointer */
+}
+#privacy_main > #privacy_section2{
+  width: 95%;
+}
+
+/*our footer CSS*/
+footer{
+  margin-top: 3%;
+}
+footer > div > div{
+  text-align: center; /* Center align text horizontally */
+  margin-top: 0.4%;
+}
+footer > div > div > button{
+  width: 60%; /*  width of the button */
+  display: inline-block; /* Display as inline-block */
+  padding: 10px 20px; /*  padding inside the button */
+  font-size: 16px; /*  font size of button text */
+  text-align: center; /* Center-align button text */
+  text-decoration: none; /* Remove underline from text */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the corners of the button */
+  color: #ffffff; /*  text color */
+  background-color: #007bff; /*  background color of button */
+}
+footer > div > div > button:hover{
+  color: #ffffff; /*  text color */
+  background-color: black; /*  background color of button */
+}
